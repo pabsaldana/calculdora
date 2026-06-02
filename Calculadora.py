@@ -11,7 +11,10 @@ def multiplicar():
     print("Multiplicar")
 
 def elevar():
-    print("Elevar")
+    base = float(input("ingrese la base: "))
+    exponente = float(input("ingrese el exponente: "))
+    resultado = base ** exponente
+    print("El resultado es:", resultado)
 
 def raiz_cuadrada():
     print("Raiz Cuadrada")
