@@ -13,6 +13,10 @@ def dividir():
 
 def multiplicar():
     print("Multiplicar")
+    num1=int(input("ponga el primer numero a multiplicar"))
+    num2=int(input("ponga el segundo numero a multiplicar"))
+    resultado=num1*num2
+    print(f"el resultado es: {resultado}")
 
 def elevar():
     base = float(input("ingrese la base: "))
@@ -32,6 +36,9 @@ print("4) Multiplicar")
 print("5) Elevar")
 print("6) Raiz Cuadrada")
 print("0) Salir")
+
+num1=0
+num2=0
 
 opcion=int(input("Ingrese opcion a trabajar "))
 if opcion==1:
