@@ -1,5 +1,9 @@
 def sumar():
-    print("Sumar")
+    print("sumar")
+    num1 = float(input("ingresa primer numero que desea sumar:"))
+    num2 = float(input("ingresa el segundo numero:"))
+    resultado = num1 + num2                      
+    print(f"el resultado es {resultado}")
 
 def restar():
     print("Restar")
@@ -28,7 +32,7 @@ print("0) Salir")
 
 opcion=int(input("Ingrese opcion a trabajar "))
 if opcion==1:
-    sumar()
+    sumar() 
 elif opcion==2:
     restar()
 elif opcion==3:
