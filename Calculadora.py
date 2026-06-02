@@ -1,3 +1,4 @@
+
 def sumar():
     print("Sumar")
 
@@ -5,7 +6,10 @@ def restar():
     print("Restar")
 
 def dividir():
-    print("Dividir")
+    num1=float(input("Ingrese el primer numero: "))
+    num2=float(input("Ingrese el segundo numero: "))
+    resultado=num1/num2
+    print(f"El resultado es: {resultado}")
 
 def multiplicar():
     print("Multiplicar")
@@ -15,7 +19,10 @@ def multiplicar():
     print(f"el resultado es: {resultado}")
 
 def elevar():
-    print("Elevar")
+    base = float(input("ingrese la base: "))
+    exponente = float(input("ingrese el exponente: "))
+    resultado = base ** exponente
+    print("El resultado es:", resultado)
 
 def raiz_cuadrada():
     print("Raiz Cuadrada")
@@ -50,3 +57,13 @@ elif opcion==0:
     print(f"Salir")
 else:
     print("Opcion no encontrada")
+
+def raiz_cuadrada():
+    print("Raíz Cuadrada")
+    numero = float(input("Ingrese el número: "))
+    
+    if numero < 0:
+        print("Error: No se puede calcular la raíz cuadrada de un número negativo.")
+    else:
+        resultado = numero ** 0.5
+        print(f"La raíz cuadrada de {numero} es: {resultado}")
