@@ -1,3 +1,4 @@
+
 def sumar():
     print("Sumar")
 
@@ -28,21 +29,27 @@ print("4) Multiplicar")
 print("5) Elevar")
 print("6) Raiz Cuadrada")
 print("0) Salir")
+while True:
+    try:
+        opcion = int(input("Ingrese opcion a trabajar "))
+    except ValueError:
+        print("Debe ingresar un número válido.")
+        continue
 
-opcion=int(input("Ingrese opcion a trabajar "))
-if opcion==1:
-    sumar()
-elif opcion==2:
-    restar()
-elif opcion==3:
-    dividir()
-elif opcion==4:
-    multiplicar()
-elif opcion==5:
-    elevar()
-elif opcion==6:
-    raiz_cuadrada()
-elif opcion==0:
-    print(f"Salir")
-else:
-    print("Opcion no encontrada")
+    if opcion == 1:
+        sumar()
+    elif opcion == 2:
+        restar()
+    elif opcion == 3:
+        dividir()
+    elif opcion == 4:
+        multiplicar()
+    elif opcion == 5:
+        elevar()
+    elif opcion == 6:
+        raiz_cuadrada()
+    elif opcion == 0:
+        print("Salir")
+        break
+    else:
+        print("Opcion no encontrada")
