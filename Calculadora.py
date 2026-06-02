@@ -1,3 +1,4 @@
+
 def sumar():
     print("Sumar")
 
@@ -5,13 +6,19 @@ def restar():
     print("Restar")
 
 def dividir():
-    print("Dividir")
+    num1=float(input("Ingrese el primer numero: "))
+    num2=float(input("Ingrese el segundo numero: "))
+    resultado=num1/num2
+    print(f"El resultado es: {resultado}")
 
 def multiplicar():
     print("Multiplicar")
 
 def elevar():
-    print("Elevar")
+    base = float(input("ingrese la base: "))
+    exponente = float(input("ingrese el exponente: "))
+    resultado = base ** exponente
+    print("El resultado es:", resultado)
 
 def raiz_cuadrada():
     print("Raiz Cuadrada")
