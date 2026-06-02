@@ -44,14 +44,12 @@ elif opcion==0:
 else:
     print("Opcion no encontrada")
 
-def raiz_cuadrada ():
-    print("raíz cuadrada")
+def raiz_cuadrada():
+    print("Raíz Cuadrada")
     numero = float(input("Ingrese el número: "))
-
+    
     if numero < 0:
-        print("Error: No se puede calcular la raíz cuadrada de un número negativo")
+        print("Error: No se puede calcular la raíz cuadrada de un número negativo.")
     else:
         resultado = numero ** 0.5
-        print(f"La raíz cuadrada de {numero} es:
-              {resultado}")
-              
+        print(f"La raíz cuadrada de {numero} es: {resultado}")
