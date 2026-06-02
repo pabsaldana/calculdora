@@ -40,6 +40,6 @@ elif opcion==5:
 elif opcion==6:
     raiz_cuadrada()
 elif opcion==0:
-    print("Salir")
+    print(f"Salir")
 else:
     print("Opcion no encontrada")
